@@ -1,0 +1,51 @@
+.meet-content2
+{
+    display: flex;
+}
+.meet-content2 .meet-img2 img {
+
+
+    max-width: 50%;
+    display:flex;
+    flex-wrap:wrap;
+    width: 50%;
+
+
+}
+.meet-content2 {
+    padding: 20px 0;
+
+}
+
+.nav-meet nav {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.nav-meet nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+
+
+.nav-meet nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.meet-our-team .meet-content  h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+
+

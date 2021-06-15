@@ -1,0 +1,30 @@
+header {
+    padding: 20px 0;
+    background-color: var(--main-bg-color);
+}
+
+header nav {
+    width: 100%;
+    margin: 0 auto;
+     background-color :var(--secondary-bg-color);
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: red;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}

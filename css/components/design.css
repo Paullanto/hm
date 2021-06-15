@@ -1,0 +1,63 @@
+.design {
+    border: 0px ;
+    background: var(--main-bg-color);
+    padding: 200px;
+}
+.design .design-text {
+    text-align: center;
+    display: inline-block;
+
+}
+.user {
+    width: 308px;
+    height: 46px;
+    background: #dad7c5  no-repeat;
+    padding: 0 10px;
+    border: none;
+    font-size: 1em;
+    line-height: 46px;
+}
+.design-text h2{
+    font-size: 60px;
+    color: white;
+}
+.design-text .white{
+
+    color: white;
+}
+a.button19 {
+    float:right;
+
+    margin-right:0px;
+    clear:left;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(147,80,36) linear-gradient(rgb(106,58,26), rgb(147,80,36) 80%);
+    box-shadow:
+            0 6px rgb(86,38,6),
+            0 3px 15px rgba(0,0,0,.4),
+            inset 0 1px rgba(255,255,255,.3),
+            inset 0 0 3px rgba(255,255,255,.5);
+    transition: .2s;
+}
+.button19:hover {
+    background: rgb(255 0 0) linear-gradient(rgb(239 3 3), rgb(167,91,41) 80%);
+}
+.button19:active {
+    background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+    box-shadow:
+            0 2px rgb(86,38,6),
+            0 1px 6px rgba(0,0,0,.4),
+            inset 0 1px rgba(255 0 0 .3),
+            inset 0 0 3px rgba(255,255,255,.5);
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
